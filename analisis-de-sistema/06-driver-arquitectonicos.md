@@ -1,0 +1,14 @@
+| ID   | Driver arquitectónico | Origen | ¿Por qué influye en la arquitectura? |
+|------|--------------------------|--------|------------------------------------------|
+| DA01 | El sistema debe soportar un incremento importante de usuarios durante campañas comerciales. | AC03 – Escalabilidad | Puede influir en la estrategia de escalamiento y despliegue. |
+| DA02 | El sistema debe mantener tiempos de respuesta adecuados durante una alta concurrencia. | AC01 – Rendimiento | Puede influir en la comunicación entre componentes, procesamiento y almacenamiento. |
+| DA03 | El sistema debe proteger los datos de usuarios y operaciones de compra. | AC04 – Seguridad | Puede influir en autenticación, autorización y protección de datos. |
+| DA04 | El sistema debe integrarse con una pasarela de pago externa mediante una API. | RC04 - Pasarela de pago | Condiciona la forma de comunicación e integración con servicios externos. |
+| DA05 | El sistema debe utilizar una API REST para la comunicación entre frontend y backend. | RC03 – API REST | Limita las alternativas de comunicación entre las partes del sistema. |
+| DA06 | El sistema debe permanecer disponible durante la campaña comercial sin interrupciones. | AC02 – Disponibilidad | Influye en el uso de redundancia, balanceo de carga y estrategias de recuperación ante fallos. |
+| DA07 | El sistema debe poder aumentar o reducir recursos automáticamente según la demanda. | AC09 – Elasticidad | Condiciona el uso de infraestructura en la nube y arquitecturas orientadas a servicios. |
+| DA08 | El sistema debe seguir operando parcialmente ante la caída de un componente externo. | AC10 – Tolerancia a fallos | Influye en el diseño de mecanismos de resiliencia, como circuit breakers y colas de mensajes. |
+| DA09 | El sistema debe integrarse con un ERP externo para obtener información de productos y stock. | RC07 – ERP externo | Condiciona el diseño de la capa de integración y sincronización de datos. |
+| DA10 | El sistema debe integrarse con un servicio externo de envío y de facturación. | RC05, RC06 – Servicios externos | Influye en la definición de contratos de integración (APIs) y manejo de fallos de terceros. |
+| DA11 | El sistema debe estructurarse mediante servicios independientes. | RC08 – Arquitectura basada en servicios | Determina el estilo arquitectónico general (por ejemplo, microservicios) y la forma de despliegue. |
+| DA12 | El sistema debe organizarse para permitir cambios sin afectar otras funcionalidades. | AC05 – Mantenibilidad | Influye en la modularidad, bajo acoplamiento y separación de responsabilidades entre componentes. |
