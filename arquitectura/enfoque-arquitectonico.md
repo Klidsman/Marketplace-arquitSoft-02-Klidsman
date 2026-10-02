@@ -1,1 +1,1 @@
-![Mi imagen](imagenes/imagen.png)
+![Estilo arquitectonico](../imagenes/22.png)
