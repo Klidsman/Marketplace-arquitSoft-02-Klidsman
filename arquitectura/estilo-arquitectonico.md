@@ -1,0 +1,1 @@
+![Estilo arquitectonico](semana2-limpio/imagenes/11.png)
